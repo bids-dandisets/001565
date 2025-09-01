@@ -8,9 +8,30 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 3435676768
+  numberOfFiles: 50
+  numberOfSubjects: 64
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7227
+    name: Drosophila melanogaster - Fruit fly
+    schemaKey: SpeciesType
+  variableMeasured:
+  - OpticalChannel
+  - ImagingPlane
+  - TwoPhotonSeries
 citation: 'Ros, Ivo; Dickinson, Michael; Dickson, William; Omoto, Jaison; Wang, Ruoxi
   (2025) Preliminary two-photon calcium imaging data for 1R01NS136988-01: The functional
   role and neural basis of rapid turns in olfactory search behavior (Version draft)
@@ -77,6 +98,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-08-30T00:07:17.593700+00:00'
+datePublished: '2025-09-01T02:48:56.036840+00:00'
 description: Calcium imaging of putative members of the pathway that relays visual
   and mechanosensory information to the compass neurons in the central complex
 ethicsApproval: []
@@ -90,6 +112,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001565/versions/draft/assets/
 name: 'Preliminary two-photon calcium imaging data for 1R01NS136988-01: The functional
   role and neural basis of rapid turns in olfactory search behavior'
+publishedBy:
+  endDate: '2025-09-01T02:48:56.036840+00:00'
+  id: urn:uuid:c56166ce-5e26-4258-808d-30737f6ecd85
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-09-01T02:48:56.036840+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:17c18feb-1897-4a78-84d1-8e99e3b91bbf
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
