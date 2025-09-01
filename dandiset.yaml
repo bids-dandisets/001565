@@ -11,18 +11,71 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: 'Ros, Ivo (2025) Preliminary two-photon calcium imaging data for 1R01NS136988-01:
-  The functional role and neural basis of rapid turns in olfactory search behavior
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001565/draft'
+citation: 'Ros, Ivo; Dickinson, Michael; Dickson, William; Omoto, Jaison; Wang, Ruoxi
+  (2025) Preliminary two-photon calcium imaging data for 1R01NS136988-01: The functional
+  role and neural basis of rapid turns in olfactory search behavior (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001565/draft'
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/05dxps055
+    name: California Institute of Technology
+    schemaKey: Affiliation
   email: ivoros@caltech.edu
+  identifier: 0000-0002-9089-548X
   includeInCitation: true
   name: Ros, Ivo
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- {}
+- affiliation:
+  - identifier: https://ror.org/05dxps055
+    name: California Institute of Technology
+    schemaKey: Affiliation
+  awardNumber: 1 R01 NS 136988-01
+  email: flyman@caltech.edu
+  identifier: 0000-0002-8587-9936
+  includeInCitation: true
+  name: Dickinson, Michael
+  roleName:
+  - dcite:ProjectLeader
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05dxps055
+    name: California Institute of Technology
+    schemaKey: Affiliation
+  email: wbd@caltech.edu
+  includeInCitation: true
+  name: Dickson, William
+  roleName:
+  - dcite:Methodology
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05dxps055
+    name: California Institute of Technology
+    schemaKey: Affiliation
+  email: jomoto@caltech.edu
+  identifier: 0000-0003-2032-6350
+  includeInCitation: true
+  name: Omoto, Jaison
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05dxps055
+    name: California Institute of Technology
+    schemaKey: Affiliation
+  email: rwang@caltech.edu
+  identifier: 0009-0004-9804-3443
+  includeInCitation: true
+  name: Wang, Ruoxi
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: 1 R01 NS 136988-01
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-08-30T00:07:17.593700+00:00'
 description: Calcium imaging of putative members of the pathway that relays visual
   and mechanosensory information to the compass neurons in the central complex
