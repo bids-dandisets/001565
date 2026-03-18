@@ -1,0 +1,20 @@
+{
+    "Name": "Preliminary two-photon calcium imaging data for 1R01NS136988-01: The functional role and neural basis of rapid turns in olfactory search behavior",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Calcium imaging of putative members of the pathway that relays visual and mechanosensory information to the compass neurons in the central complex",
+    "DatasetType": "raw",
+    "Authors": [
+        "Omoto, Jaison",
+        "Wang, Ruoxi"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
